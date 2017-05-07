@@ -1,0 +1,20 @@
+
+
+## Load and view data
+library(readr)
+DJI <- read_csv("C:/Users/NICK/Downloads/^DJI.csv")
+View(DJI)
+
+BRK <- read_csv("C:/Users/NICK/Downloads/BRK-A (2).csv")
+View(BRK)
+
+## Filter out un-wanted variables
+keep <- c(1,5,7)
+view(BKR2)
+DJI2 <- DJI[, keep]
+view(DJI2)
+
+## Prompt How aligned have BRK and DJI been over the past 5 years? (Visualize)
+
+
+## Qualitative evidence suggests BRK and DJI are less aligned during summer months. (Regression, t-test)
